@@ -1,22 +1,34 @@
 # Hi, I'm Mounica 👋
 
-I'm a product manager who builds AI-powered tools to make PM workflows faster and sharper.
+I'm a product manager who builds AI-powered tools to make PM workflows sharper — not demos, but systems I actually use daily.
 
-My work is hands-on: real deployments, live apps, and multi-agent systems built with Python, FastAPI, Claude API, and Supabase. I come from a technical background — graduate ML research, early computer vision work — and I apply that foundation to build tools I actually use.
+Each tool solves a problem I ran into doing real PM work: staying current without drowning in noise, building genuine depth on companies and markets, and practicing interviews the way they actually feel. All three are live, deployed, and in continuous iteration.
 
-**What I'm building**
+## What I'm Building
 
-- 📰 **[PM Intelligence Digest](https://github.com/mounicasirineni/pm-intelligence-digest)** — A Python/FastAPI app that fetches, scores, and synthesizes daily PM news into structured briefs. Live on Railway. Includes an LLM-as-judge eval pipeline with grounding scores and expandable reasoning rows.
-- 🔬 **[PM Research Toolkit](https://github.com/mounicasirineni/pm-research-toolkit)** — A Supabase + Claude API research library with four structured templates (Product Teardown, Domain Primer, Company Deep Dive, Competitive Landscape). Auto-formats raw research into structured markdown via a Claude-powered Edge Function.
-- 🎙️ **[PM Interview Simulator](https://github.com/mounicasirineni/pm-interview-simulator)** — A three-agent system (Generator, Interviewer, Evaluator) built on Claude Sonnet. Includes a seeded bank of 70 real PM questions across 7 categories, voice input via Sarvam AI, and auto-triggered evaluation at wrap-up.
+### 📰 [PM Intelligence Digest](https://github.com/mounicasirineni/pm-intelligence-digest) · [Live →](https://pm-intelligence-digest-production.up.railway.app)
+A daily AI pipeline that synthesizes PM-relevant signals from 39 curated sources across 8 themes. Not summaries — cross-source reasoning that surfaces what's actually shifting and why it matters. Three-pass architecture: signal extraction per article (Pass 1), cross-source synthesis with inline citations (Pass 2), LLM-as-judge quality evaluation across 5 dimensions (Pass 3). Includes an evals dashboard with per-run scores and inline judge reasoning.
 
-All three are deployed and live. See them together: **[pm-ai-agents-2026](https://github.com/mounicasirineni/pm-ai-agents-2026)**
+`Python` `FastAPI` `Flask` `Claude API` `SQLite` `APScheduler` `Railway` `Cursor`
+
+### 🔬 [PM Research Toolkit](https://github.com/mounicasirineni/pm-research-toolkit) · [Live →](https://pm-research-library-xma0.bolt.host)
+A structured research system built around four templates — Product Teardown, Domain Primer, Company Deep Dive, Competitive Landscape. Each template runs 6-7 sequential prompts through Gemini Deep Research, forcing revealed preferences over stated ones and ending with a defensible prepared opinion. A Claude-powered Edge Function auto-formats raw research into structured markdown. Output lives in a browsable library.
+
+`React` `Vite` `Supabase` `Claude API` `Bolt`
+
+### 🎙️ [PM Interview Simulator](https://github.com/mounicasirineni/pm-interview-simulator) · [Live →](https://pm-interview-simulat-xs5s.bolt.host)
+A three-agent interview system — Generator, Interviewer, Evaluator — that conducts realistic PM interviews, not flashcard drills. The Interviewer agent enforces real pacing: warm-up before stress-testing, one question per turn, natural wrap-up when it has enough signal. Evaluator scores against a calibrated rubric across Structure, Specificity, Opinion Clarity, and Depth Under Pressure. Seeded with 140 real PM questions. Voice input via Sarvam AI.
+
+`Vanilla JS` `Claude Sonnet` `Supabase Edge Functions` `Sarvam AI` `Bolt`
+
+---
+
+All three tools together: **[pm-ai-agents-2026](https://github.com/mounicasirineni/pm-ai-agents-2026)**
 
 ## About Me
 
 - 🏢 Product Manager with a decade of experience, including platform work at Amazon
-- 🎓 MS with graduate-level ML coursework; early research in computer vision and augmented reality
-- 🛠️ Stack: Python · FastAPI · SQLite · Supabase · Claude API · Railway · Bolt
+- 🎓 MS with graduate-level ML coursework; early research in computer vision and augmented reality ([2013–14](https://github.com/mounicasirineni/computer-vision-ar-research-2013-2014) · [2014–16](https://github.com/mounicasirineni/masters-ml-portfolio-2014-2016))
 - 🌏 Based in Hyderabad, India
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=flat&logo=linkedin)](https://www.linkedin.com/in/mounicasirineni)
