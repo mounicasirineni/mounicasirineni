@@ -12,7 +12,7 @@ A daily AI pipeline that synthesizes PM-relevant signals from 39 curated sources
 `Python` `FastAPI` `Flask` `Claude API` `SQLite` `APScheduler` `Railway` `Cursor`
 
 ### 🔬 [PM Research Toolkit](https://github.com/mounicasirineni/pm-research-toolkit) · [Live →](https://pm-research-library-xma0.bolt.host)
-A structured research system built around four templates — Product Teardown, Domain Primer, Company Deep Dive, Competitive Landscape. Each template runs 6-7 sequential prompts through Gemini Deep Research, forcing revealed preferences over stated ones and ending with a defensible prepared opinion. A Claude-powered Edge Function auto-formats raw research into structured markdown. Output lives in a browsable library.
+Most PM research produces notes. This produces a defensible opinion. Four templates — Product Teardown, Domain Primer, Company Deep Dive, Competitive Landscape — each running 6-7 sequential prompts through Gemini Deep Research, forcing revealed preferences over stated ones. A Claude-powered Edge Function auto-formats raw research into structured markdown. Output lives in a browsable library.
 
 `React` `Vite` `Supabase` `Claude API` `Bolt`
 
@@ -27,8 +27,8 @@ All three tools together: **[pm-ai-agents-2026](https://github.com/mounicasirine
 
 ## About Me
 
-- 🏢 Product Manager with a decade of experience, including platform work at Amazon
+- 🏢 Senior Product Manager with a decade of AI/ML platform experience at Amazon
 - 🎓 MS with graduate-level ML coursework; early research in computer vision and augmented reality ([2013–14](https://github.com/mounicasirineni/computer-vision-ar-research-2013-2014) · [2014–16](https://github.com/mounicasirineni/masters-ml-portfolio-2014-2016))
-- 🌏 Based in Hyderabad, India
+- 🌏 Recently relocated from Seattle to Hyderabad
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=flat&logo=linkedin)](https://www.linkedin.com/in/mounicasirineni)
