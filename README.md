@@ -7,7 +7,7 @@ Each tool solves a problem I ran into doing real PM work: staying current withou
 ## What I'm Building
 
 ### 📰 [PM Intelligence Digest](https://github.com/mounicasirineni/pm-intelligence-digest) · [Live →](https://pm-intelligence-digest-production.up.railway.app)
-A daily AI pipeline that synthesizes PM-relevant signals from 39 curated sources across 8 themes. Not summaries — cross-source reasoning that surfaces what's actually shifting and why it matters. Three-pass architecture: signal extraction per article (Pass 1), cross-source synthesis with inline citations (Pass 2), LLM-as-judge quality evaluation across 5 dimensions (Pass 3). Includes an evals dashboard with per-run scores and inline judge reasoning.
+A daily AI pipeline that synthesizes PM-relevant signals from 40 curated sources across 8 themes. Not summaries — cross-source reasoning that surfaces what's actually shifting and why it matters. Three-pass architecture: signal extraction per article (Pass 1), cross-source synthesis with inline citations (Pass 2), LLM-as-judge quality evaluation across 5 dimensions (Pass 3). Includes an evals dashboard with per-run scores and inline judge reasoning.
 
 `Python` `FastAPI` `Flask` `Claude API` `SQLite` `APScheduler` `Railway` `Cursor`
 
